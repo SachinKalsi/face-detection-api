@@ -7,3 +7,6 @@ A simple web application built using [Flask](https://github.com/pallets/flask). 
 2. `python3 run.py`
 
 If not specified the port explicitly, the server starts running on port 5000 by default
+
+
+![](simple.gif)
