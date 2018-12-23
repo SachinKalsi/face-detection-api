@@ -1,0 +1,1 @@
+web: gunicron run:app
