@@ -12,13 +12,3 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-# from app import app
-#
-# @app.route('/', methods=['GET'])
-# def index():
-#     return "<h3>Sachin Kalsi awesome</h3>"
-#
-# if __name__ == '__main__':
-#     app.run(debug=True)
