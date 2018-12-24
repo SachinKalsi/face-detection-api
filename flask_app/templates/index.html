@@ -10,14 +10,17 @@
 <body style="margin-left:10%;margin-top:4%">
     <div id='main-div'>
       <form enctype="multipart/form-data" name='imageUpload' id='image-upload' >
-        <div style="padding: 1%">
+        <div>
           <label style="width: 14%;display: inline-block;"> Select an image: </label>
           <input id="input_image" accept="image/*" type="file" name="image">
         </div>
-
-        <div style="padding-left:15%">
-          <input type="submit" id='submit' value="Detect Faces" onclick='onSubmit(event)' name="submit">
+          <h3 style="padding-left:30%">OR</h3>
+        <div>
+          <label style="width: 14%;display: inline-block;"> Image URL </label>
+          <input placeholder="Image URL" id="image_url" type="text" style="width:60%;" class="form-control" name="image_url"><br>
         </div>
+          <input type="submit" id='submit' class="btn btn-primary" value="Detect Faces" onclick='onSubmit(event)' name="submit">
+
       </form>
     </div>
     <div style="padding-left:15%" id='message'>
