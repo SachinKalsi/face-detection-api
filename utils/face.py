@@ -1,10 +1,11 @@
 import face_recognition
 import numpy as np
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 from flask_app import app
-from os import getcwd
 
 def detect_faces(image_url):
     image = face_recognition.load_image_file(image_url)
